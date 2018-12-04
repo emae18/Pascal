@@ -1,0 +1,313 @@
+object frmDetallePedidos: TfrmDetallePedidos
+  Left = 0
+  Height = 393
+  Top = 184
+  Width = 1008
+  Caption = 'frmDetallePedidos'
+  ClientHeight = 393
+  ClientWidth = 1008
+  LCLVersion = '1.8.4.0'
+  object edtFecha: TLabeledEdit
+    Left = 176
+    Height = 27
+    Top = 48
+    Width = 176
+    EditLabel.AnchorSideTop.Control = edtFecha
+    EditLabel.AnchorSideTop.Side = asrCenter
+    EditLabel.AnchorSideRight.Control = edtFecha
+    EditLabel.AnchorSideBottom.Control = edtFecha
+    EditLabel.AnchorSideBottom.Side = asrBottom
+    EditLabel.Left = 127
+    EditLabel.Height = 16
+    EditLabel.Top = 53
+    EditLabel.Width = 43
+    EditLabel.Caption = 'FECHA'
+    EditLabel.ParentColor = False
+    EditLabel.ParentFont = False
+    EditLabel.Font.CharSet = ANSI_CHARSET
+    EditLabel.Font.Height = -13
+    EditLabel.Font.Name = 'Yu Gothic UI'
+    EditLabel.Font.Pitch = fpVariable
+    EditLabel.Font.Quality = fqDraft
+    EditLabel.Font.Style = [fsBold]
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -16
+    Font.Name = 'Yu Gothic UI'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    LabelPosition = lpLeft
+    LabelSpacing = 6
+    ParentFont = False
+    ReadOnly = True
+    TabOrder = 1
+  end
+  object edtVendedor: TLabeledEdit
+    Left = 440
+    Height = 27
+    Top = 48
+    Width = 192
+    EditLabel.AnchorSideTop.Control = edtVendedor
+    EditLabel.AnchorSideTop.Side = asrCenter
+    EditLabel.AnchorSideRight.Control = edtVendedor
+    EditLabel.AnchorSideBottom.Control = edtVendedor
+    EditLabel.AnchorSideBottom.Side = asrBottom
+    EditLabel.Left = 363
+    EditLabel.Height = 16
+    EditLabel.Top = 53
+    EditLabel.Width = 71
+    EditLabel.Caption = 'VENDEDOR'
+    EditLabel.ParentColor = False
+    EditLabel.ParentFont = False
+    EditLabel.Font.CharSet = ANSI_CHARSET
+    EditLabel.Font.Height = -13
+    EditLabel.Font.Name = 'Yu Gothic UI'
+    EditLabel.Font.Pitch = fpVariable
+    EditLabel.Font.Quality = fqDraft
+    EditLabel.Font.Style = [fsBold]
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -16
+    Font.Name = 'Yu Gothic UI'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    LabelPosition = lpLeft
+    LabelSpacing = 6
+    ParentFont = False
+    ReadOnly = True
+    TabOrder = 2
+  end
+  object edtCliente: TLabeledEdit
+    Left = 704
+    Height = 27
+    Top = 48
+    Width = 184
+    EditLabel.AnchorSideTop.Control = edtCliente
+    EditLabel.AnchorSideTop.Side = asrCenter
+    EditLabel.AnchorSideRight.Control = edtCliente
+    EditLabel.AnchorSideBottom.Control = edtCliente
+    EditLabel.AnchorSideBottom.Side = asrBottom
+    EditLabel.Left = 644
+    EditLabel.Height = 16
+    EditLabel.Top = 53
+    EditLabel.Width = 54
+    EditLabel.Caption = 'CLIENTE'
+    EditLabel.ParentColor = False
+    EditLabel.ParentFont = False
+    EditLabel.Font.CharSet = ANSI_CHARSET
+    EditLabel.Font.Height = -13
+    EditLabel.Font.Name = 'Yu Gothic UI'
+    EditLabel.Font.Pitch = fpVariable
+    EditLabel.Font.Quality = fqDraft
+    EditLabel.Font.Style = [fsBold]
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -16
+    Font.Name = 'Yu Gothic UI'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    LabelPosition = lpLeft
+    LabelSpacing = 6
+    ParentFont = False
+    ReadOnly = True
+    TabOrder = 3
+  end
+  object volver: TImage
+    Left = 8
+    Height = 32
+    Top = 352
+    Width = 32
+    AutoSize = True
+    OnClick = volverClick
+    Picture.Data = {
+      1754506F727461626C654E6574776F726B47726170686963BA04000089504E47
+      0D0A1A0A0000000D4948445200000020000000200806000000737A7AF4000000
+      0473424954080808087C086488000000097048597300000EC400000EC401952B
+      0E1B0000045C494441545885B5975B4C5C551486FF75A6335CB4347869353EA8
+      690B05BC14192E453AC45B8BA0892D128DAD26244683461F34B15E62628DC6A4
+      D1A426B5AD3EF8D03E2841AD1AA12D35C0C8A5DC2691D218A9488C4AAB6D0C2D
+      856198397BFF3ECCA57366069881B24E72726665AFFD7FFB3F6B9F3347B088A8
+      1BAB7E1A345E85C99AA6DCE6F1C5CC118E15A90CDE3E5AB3DE263808E07E6A7D
+      F6C2D9E97F97229E3440DDE97C07326FDF45E24D08D24940FBB1D77D9FDB5C76
+      80ED63D52E520E0A91071024409317BD97FFFB74A9E2F302D4FDB9E53A98F63D
+      04EB011A04400000A114F71F2BEB9F5C3680DADFAB77D2C4472057234A180048
+      0666BCDC7735C40140A27FD4FDB6651D6DF603201F0C4A4649330C001F851D24
+      47400E9B94C1E69CD66108F4A2018A068BECB766AF794D88B720C8B8B2DA887C
+      8C0BD60CC94B02B8091E9D3567BF3B9EDF792E2580DAD1879B20F278B2C28C94
+      87AEA3F2241580360A3FCB5CDF76A449A0E60528EB29CBB86575F6340462154E
+      607FEC79A13C3906CD779B1B3B0E6377E25B2400F0D82F5B870C87DC95B28005
+      35988F732798EF35C1FAD60DEE5F63010C00084C99DBD4AC1E8BECF3E0296869
+      F808E5199B0F0B93514071F932031CA81A716D4BE800006C1DDC7CB3233DFDB8
+      9126775A5660B9EF316726EC94B0415617409054D4D8D15AD0D918070000359D
+      15D9B22AED0723DD284F3C35407FE891240025E4A1CC6B7F2C84CF3450DAB6A1
+      EB541C00003C32589409FBAAAF25DDA882C44F1498A593977D7F8938B20C316F
+      5234D61A69B21186548A0D1B6187C40259AE82FCBD270ABA3625040082CF8535
+      F6AC4346BA3C19EF827EAA25D7FD45A2BACA93A5B739ECF6E7C5212F8A1D2BAD
+      2BB7BAA3A82BDB0B4EFE64249AC8E3F4045ABE69DFA1BCFA0035234524A129AE
+      443500E0DED4F7C70967D71BE654204FCDE8B648D346FAE84A030BE40920B40B
+      12C66EE8A3851D2FA819BEA73519EE7201E70408475B79EFF884F655D1A79B19
+      231CDC6100A85DF30384E2D83D1D6FAB69F50A1535416832AFEA4CC58D0BD579
+      9C9E4040A67752F17CD889605F840E410E08591000005A9D9D7BB5D7ACA7A94D
+      0042D3D89C4C9DBB70E8A252FA93395C709477E75E9B140000B416771F525E55
+      AB037A4653DD9D6C1D956A8155387CCDF393CA9F340000FC58D2F3BD39A90BFD
+      97D4E1646B34F578ACFD21A00BA3D5A3B329FD290580F68A9E9154C61B99727D
+      7027598326FA81249A70A941657B203E0950F1AB6507C83F9DEF10F2A5D8BC36
+      F5DFE7B226BE5C76801B78CD3B62C8DAE81C35A9FC78793467741648F1C32495
+      700D973C23825D167112DA873DDDA50347C2B96571A072B8B84180CF25EA3943
+      45728A1F7496F4BF1E3DF6AA3A50345E94B972C2F63120CF468449D08F7FB40F
+      0D5DF70E7C1B5B93F06DB898709D2A7AC810DB7E88AC0B0BC38F0915D0FBFC30
+      3EEC9FE34366C900953F3BEF80CD781FC0A32084267CA2D8AE7D68F466E8268F
+      D3E39DAF7E4900957DC50DB4C973D438232686B4C93E7385ADA7B7BC7726D939
+      FE0735C3CDB8634BB8F00000000049454E44AE426082
+    }
+  end
+  object grillaDetallesPedidos: TStringGrid
+    Left = 24
+    Height = 240
+    Top = 104
+    Width = 960
+    AutoFillColumns = True
+    Color = clDefault
+    ColCount = 6
+    Columns = <    
+      item
+        Alignment = taCenter
+        Font.CharSet = ANSI_CHARSET
+        Font.Color = clPurple
+        Font.Height = -15
+        Font.Name = 'Yu Gothic UI'
+        Font.Pitch = fpVariable
+        Font.Quality = fqDraft
+        Title.Alignment = taCenter
+        Title.Font.CharSet = ANSI_CHARSET
+        Title.Font.Color = clBlack
+        Title.Font.Height = -13
+        Title.Font.Name = 'Yu Gothic UI'
+        Title.Font.Pitch = fpVariable
+        Title.Font.Quality = fqDraft
+        Title.Caption = 'CODIGO'
+        Width = 159
+      end    
+      item
+        Alignment = taCenter
+        Title.Alignment = taCenter
+        Title.Font.CharSet = ANSI_CHARSET
+        Title.Font.Color = clBlack
+        Title.Font.Height = -13
+        Title.Font.Name = 'Yu Gothic UI'
+        Title.Font.Pitch = fpVariable
+        Title.Font.Quality = fqDraft
+        Title.Caption = 'NOMBRE'
+        Width = 159
+      end    
+      item
+        Alignment = taCenter
+        Title.Alignment = taCenter
+        Title.Font.CharSet = ANSI_CHARSET
+        Title.Font.Color = clBlack
+        Title.Font.Height = -13
+        Title.Font.Name = 'Yu Gothic UI'
+        Title.Font.Pitch = fpVariable
+        Title.Font.Quality = fqDraft
+        Title.Caption = 'TAMAÑO (ml)'
+        Width = 159
+      end    
+      item
+        Alignment = taCenter
+        Title.Alignment = taCenter
+        Title.Font.CharSet = ANSI_CHARSET
+        Title.Font.Color = clBlack
+        Title.Font.Height = -13
+        Title.Font.Name = 'Yu Gothic UI'
+        Title.Font.Pitch = fpVariable
+        Title.Font.Quality = fqDraft
+        Title.Caption = 'UNIDADES'
+        Width = 159
+      end    
+      item
+        Alignment = taCenter
+        Title.Alignment = taCenter
+        Title.Font.CharSet = ANSI_CHARSET
+        Title.Font.Color = clBlack
+        Title.Font.Height = -13
+        Title.Font.Name = 'Yu Gothic UI'
+        Title.Font.Pitch = fpVariable
+        Title.Font.Quality = fqDraft
+        Title.Caption = 'VALOR UNIDAD'
+        Width = 159
+      end    
+      item
+        Alignment = taCenter
+        Font.CharSet = ANSI_CHARSET
+        Font.Color = clGreen
+        Font.Height = -12
+        Font.Name = 'Yu Gothic UI'
+        Font.Pitch = fpVariable
+        Font.Quality = fqDraft
+        Font.Style = [fsBold]
+        Title.Alignment = taCenter
+        Title.Caption = 'TOTAL'
+        Width = 164
+      end>
+    ExtendedSelect = False
+    FixedCols = 0
+    Flat = True
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -12
+    Font.Name = 'Yu Gothic UI'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Options2 = [goScrollToLastRow]
+    ParentFont = False
+    RowCount = 1
+    TabOrder = 0
+    TitleFont.CharSet = ANSI_CHARSET
+    TitleFont.Height = -12
+    TitleFont.Name = 'Yu Gothic UI'
+    TitleFont.Pitch = fpVariable
+    TitleFont.Quality = fqDraft
+    ColWidths = (
+      159
+      159
+      159
+      159
+      159
+      164
+    )
+  end
+  object total: TLabeledEdit
+    Left = 904
+    Height = 29
+    Top = 352
+    Width = 80
+    EditLabel.AnchorSideLeft.Side = asrBottom
+    EditLabel.AnchorSideTop.Control = total
+    EditLabel.AnchorSideTop.Side = asrCenter
+    EditLabel.AnchorSideRight.Control = total
+    EditLabel.AnchorSideBottom.Control = total
+    EditLabel.AnchorSideBottom.Side = asrBottom
+    EditLabel.Left = 865
+    EditLabel.Height = 17
+    EditLabel.Top = 358
+    EditLabel.Width = 33
+    EditLabel.Caption = 'Total'
+    EditLabel.ParentColor = False
+    EditLabel.ParentFont = False
+    EditLabel.Font.CharSet = ANSI_CHARSET
+    EditLabel.Font.Height = -13
+    EditLabel.Font.Name = 'Yu Gothic'
+    EditLabel.Font.Pitch = fpVariable
+    EditLabel.Font.Quality = fqDraft
+    EditLabel.Font.Style = [fsBold]
+    Enabled = False
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -16
+    Font.Name = 'Yu Gothic'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    LabelPosition = lpLeft
+    LabelSpacing = 6
+    ParentFont = False
+    TabOrder = 4
+  end
+end

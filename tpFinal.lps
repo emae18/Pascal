@@ -1,0 +1,539 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="10"/>
+    <BuildModes Active="Default"/>
+    <Units Count="53">
+      <Unit0>
+        <Filename Value="tpFinal.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="3"/>
+        <CursorPos X="59" Y="15"/>
+        <UsageCount Value="132"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="formlogin.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmLogin"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="formLogin"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="83"/>
+        <CursorPos X="72" Y="94"/>
+        <UsageCount Value="132"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="unidadcentral.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="unidadCentral"/>
+        <TopLine Value="365"/>
+        <CursorPos X="22" Y="370"/>
+        <FoldState Value=" TCJG64 TLl80X T3jH07615Q"/>
+        <UsageCount Value="132"/>
+        <Loaded Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="formgestion.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmGestion"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="formGestion"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="17" Y="47"/>
+        <UsageCount Value="120"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="formusuarios.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmUsuarios"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="formUsuarios"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="56"/>
+        <CursorPos X="28" Y="58"/>
+        <UsageCount Value="118"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="formaltausuario.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmAltaUsuario"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="formAltaUsuario"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="133"/>
+        <CursorPos X="11" Y="27"/>
+        <UsageCount Value="116"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="formprincipal.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmPrincipal"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="formPrincipal"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="326"/>
+        <CursorPos X="4" Y="330"/>
+        <FoldState Value=" T3jQ0C4 picjH0M3317151d"/>
+        <UsageCount Value="101"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="formaltapedidos.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmAltaPedidos"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="formAltaPedidos"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="47"/>
+        <CursorPos X="71" Y="53"/>
+        <FoldState Value=" T3mB0P5#"/>
+        <UsageCount Value="67"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="formaltaproducto.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmAltaProd"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="formAltaProducto"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="123"/>
+        <CursorPos X="84" Y="135"/>
+        <FoldState Value=" T3iR08n"/>
+        <UsageCount Value="63"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="H:\formularios\unidadcentral.pas"/>
+        <UnitName Value="unidadCentral"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="2"/>
+        <CursorPos X="31" Y="31"/>
+        <UsageCount Value="6"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="H:\formularios\unit1.pas"/>
+        <ComponentName Value="formLista"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="Unit1"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="204"/>
+        <CursorPos X="3" Y="212"/>
+        <UsageCount Value="6"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="H:\formularios\unit2.pas"/>
+        <UnitName Value="Unit2"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="58"/>
+        <CursorPos X="16" Y="75"/>
+        <UsageCount Value="7"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="H:\tpFinalFinal\Tp9 (sin modificaciones)\fprograma.pas"/>
+        <ComponentName Value="p9"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="fPrograma"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="81"/>
+        <CursorPos X="11" Y="93"/>
+        <UsageCount Value="6"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="H:\tpFinalFinal\Tp9 (sin modificaciones)\falta.lfm"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="6"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="H:\tpFinalFinal\Tp9 (sin modificaciones)\falta.pas"/>
+        <ComponentName Value="fAltaUser"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="fAlta"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="18" Y="6"/>
+        <UsageCount Value="6"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="C:\lazarus\lcl\grids.pas"/>
+        <UnitName Value="Grids"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="9604"/>
+        <CursorPos X="21" Y="9617"/>
+        <UsageCount Value="10"/>
+      </Unit15>
+      <Unit16>
+        <Filename Value="C:\lazarus\lcl\forms.pp"/>
+        <UnitName Value="Forms"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="626"/>
+        <CursorPos X="15" Y="643"/>
+        <UsageCount Value="7"/>
+      </Unit16>
+      <Unit17>
+        <Filename Value="H:\Tp9 (modifcaciones)\fprograma.pas"/>
+        <UnitName Value="fPrograma"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="214"/>
+        <CursorPos X="75" Y="240"/>
+        <UsageCount Value="7"/>
+      </Unit17>
+      <Unit18>
+        <Filename Value="H:\Tp9 (modifcaciones) - copia\fprograma.pas"/>
+        <ComponentName Value="p9"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="fPrograma"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="7"/>
+      </Unit18>
+      <Unit19>
+        <Filename Value="H:\Tp final (metodologia)\tpFinal(Registros)\unidadcentral.pas"/>
+        <UnitName Value="unidadCentral"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="34"/>
+        <CursorPos X="6" Y="93"/>
+        <UsageCount Value="7"/>
+      </Unit19>
+      <Unit20>
+        <Filename Value="H:\Tp final (metodologia)\tpFinal(Registros)\formaltausuario.pas"/>
+        <UnitName Value="formAltaUsuario"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="100"/>
+        <CursorPos X="4" Y="124"/>
+        <UsageCount Value="7"/>
+      </Unit20>
+      <Unit21>
+        <Filename Value="H:\tps 9\Tp9 (modifcaciones) - copia\fprograma.pas"/>
+        <ComponentName Value="p9"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="fPrograma"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="375"/>
+        <CursorPos X="36" Y="388"/>
+        <UsageCount Value="7"/>
+      </Unit21>
+      <Unit22>
+        <Filename Value="H:\Torticulis\Tp9 modificado\fprograma.pas"/>
+        <ComponentName Value="p9"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="fPrograma"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="193"/>
+        <CursorPos X="3" Y="231"/>
+        <UsageCount Value="8"/>
+      </Unit22>
+      <Unit23>
+        <Filename Value="H:\Tp final (metodologia)\Tp9\fprograma.pas"/>
+        <ComponentName Value="p9"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="fPrograma"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="485"/>
+        <CursorPos X="75" Y="500"/>
+        <UsageCount Value="8"/>
+      </Unit23>
+      <Unit24>
+        <Filename Value="D:\TP05-Final\Tp05 - Work\unit1.pas"/>
+        <UnitName Value="Unit1"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="343"/>
+        <CursorPos X="23" Y="346"/>
+        <UsageCount Value="9"/>
+      </Unit24>
+      <Unit25>
+        <Filename Value="D:\clientes\tp final (altaClie)\formaltaclientes.pas"/>
+        <ComponentName Value="frmClientes"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="formAltaClientes"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="52"/>
+        <CursorPos Y="3"/>
+        <UsageCount Value="10"/>
+      </Unit25>
+      <Unit26>
+        <Filename Value="D:\clientes\tp final (altaClie)\formprincipal.pas"/>
+        <ComponentName Value="frmPrincipal"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="formPrincipal"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="163"/>
+        <CursorPos X="17" Y="164"/>
+        <UsageCount Value="10"/>
+      </Unit26>
+      <Unit27>
+        <Filename Value="D:\clientes\tp final (altaClie)\unidadcentral.pas"/>
+        <UnitName Value="unidadCentral"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="166"/>
+        <CursorPos Y="171"/>
+        <UsageCount Value="10"/>
+      </Unit27>
+      <Unit28>
+        <Filename Value="D:\clientes\tp final (altaClie)\tpFinal.lpr"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="34" Y="11"/>
+        <UsageCount Value="10"/>
+      </Unit28>
+      <Unit29>
+        <Filename Value="formaltaclientes.pas"/>
+        <ComponentName Value="frmClientes"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="formAltaClientes"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="24"/>
+        <CursorPos X="60" Y="29"/>
+        <ComponentState Value="1"/>
+        <UsageCount Value="18"/>
+      </Unit29>
+      <Unit30>
+        <Filename Value="D:\clientes\A\formprincipal.pas"/>
+        <ComponentName Value="frmPrincipal"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="formPrincipal"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="165"/>
+        <CursorPos X="8" Y="199"/>
+        <UsageCount Value="10"/>
+      </Unit30>
+      <Unit31>
+        <Filename Value="D:\Tp final (metodologia)\B\formprincipal.pas"/>
+        <ComponentName Value="frmPrincipal"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="formPrincipal"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="232"/>
+        <CursorPos Y="219"/>
+        <FoldState Value=" T3j40N4 pj7jg048 piZjF073:"/>
+        <UsageCount Value="10"/>
+      </Unit31>
+      <Unit32>
+        <Filename Value="D:\Tp final (metodologia)\B\formaltausuario.pas"/>
+        <ComponentName Value="frmAltaUsuario"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="formAltaUsuario"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="10"/>
+      </Unit32>
+      <Unit33>
+        <Filename Value="D:\Tp final (metodologia)\B\unidadcentral.pas"/>
+        <UnitName Value="unidadCentral"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos Y="210"/>
+        <FoldState Value=" T3j9077 TLke0Xx"/>
+        <UsageCount Value="10"/>
+      </Unit33>
+      <Unit34>
+        <Filename Value="D:\Tp final (metodologia)\c\formaltapedidos.pas"/>
+        <UnitName Value="formAltaPedidos"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="10"/>
+      </Unit34>
+      <Unit35>
+        <Filename Value="D:\Tp final (metodologia)\c\formprincipal.pas"/>
+        <ComponentName Value="frmPrincipal"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="formPrincipal"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="47"/>
+        <CursorPos X="25" Y="205"/>
+        <UsageCount Value="10"/>
+      </Unit35>
+      <Unit36>
+        <Filename Value="D:\Tp final (metodologia)\B\formaltapedidos.pas"/>
+        <UnitName Value="formAltaPedidos"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="34"/>
+        <UsageCount Value="10"/>
+      </Unit36>
+      <Unit37>
+        <Filename Value="D:\Tp final (metodologia)\B\formaltaproducto.pas"/>
+        <ComponentName Value="frmAltaProd"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="formAltaProducto"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="33"/>
+        <CursorPos X="21" Y="33"/>
+        <UsageCount Value="10"/>
+      </Unit37>
+      <Unit38>
+        <Filename Value="D:\TrabajoFinal Final vFinal\c\formaltapedidos.pas"/>
+        <ComponentName Value="frmAltaPedidos"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="formAltaPedidos"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="223"/>
+        <CursorPos X="2" Y="227"/>
+        <UsageCount Value="10"/>
+      </Unit38>
+      <Unit39>
+        <Filename Value="D:\TrabajoFinal Final vFinal\c\formprincipal.pas"/>
+        <ComponentName Value="frmPrincipal"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="formPrincipal"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="269"/>
+        <CursorPos X="28" Y="278"/>
+        <UsageCount Value="10"/>
+      </Unit39>
+      <Unit40>
+        <Filename Value="D:\TrabajoFinal Final vFinal\c\unidadcentral.pas"/>
+        <UnitName Value="unidadCentral"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="312"/>
+        <CursorPos Y="312"/>
+        <UsageCount Value="10"/>
+      </Unit40>
+      <Unit41>
+        <Filename Value="D:\aaaaa\TRABAJO FINAL\formprincipal.pas"/>
+        <ComponentName Value="frmPrincipal"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="formPrincipal"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="416"/>
+        <CursorPos X="10" Y="405"/>
+        <UsageCount Value="10"/>
+      </Unit41>
+      <Unit42>
+        <Filename Value="D:\aaaaa\TRABAJO FINAL\tpFinal.lpr"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="2"/>
+        <CursorPos X="43" Y="21"/>
+        <UsageCount Value="10"/>
+      </Unit42>
+      <Unit43>
+        <Filename Value="formdetallespedidos.pas"/>
+        <ComponentName Value="frmDetallePedidos"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="formDetallesPedidos"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="20"/>
+        <CursorPos X="3" Y="32"/>
+        <UsageCount Value="13"/>
+      </Unit43>
+      <Unit44>
+        <Filename Value="C:\lazarus\lcl\include\customform.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="2305"/>
+        <CursorPos Y="2317"/>
+        <UsageCount Value="10"/>
+      </Unit44>
+      <Unit45>
+        <Filename Value="..\..\copia\TRABAJO FINAL\formprincipal.lfm"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit45>
+      <Unit46>
+        <Filename Value="..\..\copia\TRABAJO FINAL\formprincipal.pas"/>
+        <ComponentName Value="frmPrincipal"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="formPrincipal"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="504"/>
+        <CursorPos X="3" Y="507"/>
+        <UsageCount Value="10"/>
+      </Unit46>
+      <Unit47>
+        <Filename Value="..\..\copia\TRABAJO FINAL\formaltapedidos.pas"/>
+        <ComponentName Value="frmAltaPedidos"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="formAltaPedidos"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="247"/>
+        <CursorPos X="2" Y="251"/>
+        <UsageCount Value="10"/>
+      </Unit47>
+      <Unit48>
+        <Filename Value="..\TRABAJO FINAL\formprincipal.pas"/>
+        <ComponentName Value="frmPrincipal"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="formPrincipal"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="539"/>
+        <CursorPos X="55" Y="548"/>
+        <UsageCount Value="10"/>
+      </Unit48>
+      <Unit49>
+        <Filename Value="..\TRABAJO FINAL\formaltapedidos.pas"/>
+        <ComponentName Value="frmAltaPedidos"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="formAltaPedidos"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="247"/>
+        <CursorPos Y="248"/>
+        <UsageCount Value="10"/>
+      </Unit49>
+      <Unit50>
+        <Filename Value="..\TRABAJO FINAL\formlogin.pas"/>
+        <UnitName Value="formLogin"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="99"/>
+        <CursorPos Y="68"/>
+        <UsageCount Value="10"/>
+      </Unit50>
+      <Unit51>
+        <Filename Value="C:\lazarus\fpc\3.0.4\source\rtl\objpas\sysutils\sysutilh.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="162"/>
+        <CursorPos X="19" Y="113"/>
+        <UsageCount Value="10"/>
+      </Unit51>
+      <Unit52>
+        <Filename Value="..\..\TRABAJO FINAL Definitivo\formprincipal.pas"/>
+        <ComponentName Value="frmPrincipal"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="formPrincipal"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="10"/>
+      </Unit52>
+    </Units>
+    <JumpHistory Count="3" HistoryIndex="2">
+      <Position1>
+        <Filename Value="formlogin.pas"/>
+        <Caret Line="73" Column="6" TopLine="55"/>
+      </Position1>
+      <Position2>
+        <Filename Value="formlogin.pas"/>
+        <Caret Line="60" Column="36" TopLine="56"/>
+      </Position2>
+      <Position3>
+        <Filename Value="formlogin.pas"/>
+        <Caret Line="76" Column="5" TopLine="68"/>
+      </Position3>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>

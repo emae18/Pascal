@@ -1,0 +1,188 @@
+object frmAltaProd: TfrmAltaProd
+  Left = 389
+  Height = 476
+  Top = 114
+  Width = 364
+  Caption = 'frmAltaProd'
+  ClientHeight = 476
+  ClientWidth = 364
+  OnCreate = FormCreate
+  LCLVersion = '1.8.4.0'
+  object edt1: TLabeledEdit
+    Left = 104
+    Height = 28
+    Top = 36
+    Width = 128
+    AutoSize = False
+    EditLabel.AnchorSideLeft.Control = edt1
+    EditLabel.AnchorSideTop.Side = asrCenter
+    EditLabel.AnchorSideRight.Control = edt1
+    EditLabel.AnchorSideRight.Side = asrBottom
+    EditLabel.AnchorSideBottom.Control = edt1
+    EditLabel.Left = 104
+    EditLabel.Height = 15
+    EditLabel.Top = 19
+    EditLabel.Width = 128
+    EditLabel.Caption = 'CODIGO'
+    EditLabel.ParentColor = False
+    EditLabel.ParentFont = False
+    EditLabel.Font.CharSet = ANSI_CHARSET
+    EditLabel.Font.Height = -12
+    EditLabel.Font.Name = 'Yu Gothic UI'
+    EditLabel.Font.Pitch = fpVariable
+    EditLabel.Font.Quality = fqDraft
+    EditLabel.Font.Style = [fsBold]
+    Enabled = False
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -15
+    Font.Name = 'Yu Gothic UI'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    LabelSpacing = 2
+    ParentFont = False
+    TabOrder = 0
+  end
+  object edt2: TLabeledEdit
+    Left = 104
+    Height = 28
+    Top = 110
+    Width = 128
+    AutoSize = False
+    EditLabel.AnchorSideLeft.Control = edt2
+    EditLabel.AnchorSideTop.Side = asrCenter
+    EditLabel.AnchorSideRight.Control = edt2
+    EditLabel.AnchorSideRight.Side = asrBottom
+    EditLabel.AnchorSideBottom.Control = edt2
+    EditLabel.Left = 104
+    EditLabel.Height = 15
+    EditLabel.Top = 93
+    EditLabel.Width = 128
+    EditLabel.Caption = 'NOMBRE '
+    EditLabel.ParentColor = False
+    EditLabel.ParentFont = False
+    EditLabel.Font.CharSet = ANSI_CHARSET
+    EditLabel.Font.Height = -12
+    EditLabel.Font.Name = 'Yu Gothic UI'
+    EditLabel.Font.Pitch = fpVariable
+    EditLabel.Font.Quality = fqDraft
+    EditLabel.Font.Style = [fsBold]
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -15
+    Font.Name = 'Yu Gothic UI'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    LabelSpacing = 2
+    ParentFont = False
+    TabOrder = 1
+  end
+  object edt3: TEdit
+    Left = 104
+    Height = 25
+    Top = 190
+    Width = 128
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -15
+    Font.Name = 'Yu Gothic UI'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    NumbersOnly = True
+    ParentFont = False
+    TabOrder = 2
+  end
+  object edt4: TLabeledEdit
+    Left = 104
+    Height = 28
+    Top = 270
+    Width = 128
+    AutoSize = False
+    EditLabel.AnchorSideLeft.Control = edt4
+    EditLabel.AnchorSideTop.Side = asrCenter
+    EditLabel.AnchorSideRight.Control = edt4
+    EditLabel.AnchorSideRight.Side = asrBottom
+    EditLabel.AnchorSideBottom.Control = edt4
+    EditLabel.Left = 104
+    EditLabel.Height = 15
+    EditLabel.Top = 253
+    EditLabel.Width = 128
+    EditLabel.Caption = 'PRECIO'
+    EditLabel.ParentColor = False
+    EditLabel.ParentFont = False
+    EditLabel.Font.CharSet = ANSI_CHARSET
+    EditLabel.Font.Height = -12
+    EditLabel.Font.Name = 'Yu Gothic UI'
+    EditLabel.Font.Pitch = fpVariable
+    EditLabel.Font.Quality = fqDraft
+    EditLabel.Font.Style = [fsBold]
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clBlack
+    Font.Height = -15
+    Font.Name = 'Yu Gothic UI'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    LabelSpacing = 2
+    ParentFont = False
+    TabOrder = 3
+  end
+  object edt5: TEdit
+    Left = 104
+    Height = 25
+    Top = 344
+    Width = 125
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -15
+    Font.Name = 'Yu Gothic UI'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    NumbersOnly = True
+    ParentFont = False
+    TabOrder = 4
+  end
+  object btnAceptar: TBitBtn
+    Left = 56
+    Height = 38
+    Top = 408
+    Width = 91
+    Caption = 'Aceptar'
+    OnClick = btnAceptarClick
+    TabOrder = 5
+  end
+  object btnCancelar: TBitBtn
+    Left = 224
+    Height = 38
+    Top = 408
+    Width = 94
+    Caption = 'Cancelar'
+    OnClick = btnCancelarClick
+    TabOrder = 6
+  end
+  object Label1: TLabel
+    Left = 104
+    Height = 15
+    Top = 173
+    Width = 49
+    Caption = 'TAMAÑO'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -12
+    Font.Name = 'Yu Gothic UI'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 104
+    Height = 15
+    Top = 326
+    Width = 40
+    Caption = 'STOCK'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -12
+    Font.Name = 'Yu Gothic UI'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+end

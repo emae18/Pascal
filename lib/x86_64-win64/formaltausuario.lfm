@@ -1,0 +1,253 @@
+object frmAltaUsuario: TfrmAltaUsuario
+  Left = 444
+  Height = 560
+  Top = 71
+  Width = 348
+  Caption = 'AltaUsuario'
+  ClientHeight = 560
+  ClientWidth = 348
+  OnActivate = FormActivate
+  LCLVersion = '1.8.4.0'
+  object editId: TLabeledEdit
+    Left = 37
+    Height = 28
+    Top = 36
+    Width = 128
+    AutoSize = False
+    EditLabel.AnchorSideLeft.Control = editId
+    EditLabel.AnchorSideTop.Side = asrCenter
+    EditLabel.AnchorSideRight.Control = editId
+    EditLabel.AnchorSideRight.Side = asrBottom
+    EditLabel.AnchorSideBottom.Control = editId
+    EditLabel.Left = 37
+    EditLabel.Height = 15
+    EditLabel.Top = 19
+    EditLabel.Width = 128
+    EditLabel.Caption = 'ID '
+    EditLabel.ParentColor = False
+    EditLabel.ParentFont = False
+    EditLabel.Font.CharSet = ANSI_CHARSET
+    EditLabel.Font.Height = -12
+    EditLabel.Font.Name = 'Yu Gothic UI'
+    EditLabel.Font.Pitch = fpVariable
+    EditLabel.Font.Quality = fqDraft
+    EditLabel.Font.Style = [fsBold]
+    Enabled = False
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -15
+    Font.Name = 'Yu Gothic UI'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    LabelSpacing = 2
+    ParentFont = False
+    TabOrder = 7
+  end
+  object editClave: TLabeledEdit
+    Left = 37
+    Height = 28
+    Top = 270
+    Width = 128
+    AutoSize = False
+    EchoMode = emPassword
+    EditLabel.AnchorSideLeft.Control = editClave
+    EditLabel.AnchorSideTop.Side = asrCenter
+    EditLabel.AnchorSideRight.Control = editClave
+    EditLabel.AnchorSideRight.Side = asrBottom
+    EditLabel.AnchorSideBottom.Control = editClave
+    EditLabel.Left = 37
+    EditLabel.Height = 15
+    EditLabel.Top = 253
+    EditLabel.Width = 128
+    EditLabel.Caption = 'CONTRASEÑA'
+    EditLabel.ParentColor = False
+    EditLabel.ParentFont = False
+    EditLabel.Font.CharSet = ANSI_CHARSET
+    EditLabel.Font.Height = -12
+    EditLabel.Font.Name = 'Yu Gothic UI'
+    EditLabel.Font.Pitch = fpVariable
+    EditLabel.Font.Quality = fqDraft
+    EditLabel.Font.Style = [fsBold]
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clBlack
+    Font.Height = -15
+    Font.Name = 'Yu Gothic UI'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    LabelSpacing = 2
+    ParentFont = False
+    PasswordChar = '*'
+    TabOrder = 2
+  end
+  object editClave2: TLabeledEdit
+    Left = 37
+    Height = 28
+    Top = 350
+    Width = 128
+    AutoSize = False
+    EchoMode = emPassword
+    EditLabel.AnchorSideLeft.Control = editClave2
+    EditLabel.AnchorSideTop.Side = asrCenter
+    EditLabel.AnchorSideRight.Control = editClave2
+    EditLabel.AnchorSideRight.Side = asrBottom
+    EditLabel.AnchorSideBottom.Control = editClave2
+    EditLabel.Left = 37
+    EditLabel.Height = 15
+    EditLabel.Top = 333
+    EditLabel.Width = 128
+    EditLabel.Caption = 'REPETIR CONTRASEÑA '
+    EditLabel.ParentColor = False
+    EditLabel.ParentFont = False
+    EditLabel.Font.CharSet = ANSI_CHARSET
+    EditLabel.Font.Height = -12
+    EditLabel.Font.Name = 'Yu Gothic UI'
+    EditLabel.Font.Pitch = fpVariable
+    EditLabel.Font.Quality = fqDraft
+    EditLabel.Font.Style = [fsBold]
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -15
+    Font.Name = 'Yu Gothic UI'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    LabelSpacing = 2
+    ParentFont = False
+    PasswordChar = '*'
+    TabOrder = 3
+  end
+  object editNombre: TLabeledEdit
+    Left = 37
+    Height = 28
+    Top = 110
+    Width = 291
+    AutoSize = False
+    EditLabel.AnchorSideLeft.Control = editNombre
+    EditLabel.AnchorSideTop.Side = asrCenter
+    EditLabel.AnchorSideRight.Control = editNombre
+    EditLabel.AnchorSideRight.Side = asrBottom
+    EditLabel.AnchorSideBottom.Control = editNombre
+    EditLabel.Left = 37
+    EditLabel.Height = 15
+    EditLabel.Top = 93
+    EditLabel.Width = 291
+    EditLabel.Caption = 'NOMBRE APELLIDO '
+    EditLabel.ParentColor = False
+    EditLabel.ParentFont = False
+    EditLabel.Font.CharSet = ANSI_CHARSET
+    EditLabel.Font.Height = -12
+    EditLabel.Font.Name = 'Yu Gothic UI'
+    EditLabel.Font.Pitch = fpVariable
+    EditLabel.Font.Quality = fqDraft
+    EditLabel.Font.Style = [fsBold]
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -15
+    Font.Name = 'Yu Gothic UI'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    LabelSpacing = 2
+    ParentFont = False
+    TabOrder = 0
+  end
+  object cbCategoria: TComboBox
+    Left = 37
+    Height = 25
+    Top = 430
+    Width = 146
+    Anchors = [akTop]
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -15
+    Font.Name = 'Yu Gothic UI'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ItemHeight = 17
+    Items.Strings = (
+      'Administrador'
+      'Vendedor'
+    )
+    ParentFont = False
+    TabOrder = 4
+    Text = 'SELECCIONAR'
+  end
+  object botonCancelar: TBitBtn
+    Left = 37
+    Height = 38
+    Top = 504
+    Width = 99
+    Caption = 'Cancelar'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -13
+    Font.Name = 'Yu Gothic UI'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    OnClick = botonCancelarClick
+    ParentFont = False
+    TabOrder = 6
+  end
+  object botonAceptar: TBitBtn
+    Left = 224
+    Height = 38
+    Top = 504
+    Width = 99
+    Caption = 'Aceptar'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -13
+    Font.Name = 'Yu Gothic UI'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    OnClick = botonAceptarClick
+    ParentFont = False
+    TabOrder = 5
+  end
+  object Label1: TLabel
+    Left = 37
+    Height = 15
+    Top = 412
+    Width = 24
+    Caption = 'ROL'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -12
+    Font.Name = 'Yu Gothic UI'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object errorDNI: TLabel
+    Left = 175
+    Height = 1
+    Top = 198
+    Width = 1
+    ParentColor = False
+  end
+  object editDni: TEdit
+    Left = 37
+    Height = 25
+    Top = 192
+    Width = 128
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -15
+    Font.Name = 'Yu Gothic UI'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    MaxLength = 8
+    NumbersOnly = True
+    ParentFont = False
+    TabOrder = 1
+  end
+  object Label2: TLabel
+    Left = 37
+    Height = 15
+    Top = 174
+    Width = 19
+    Caption = 'DNI'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -12
+    Font.Name = 'Yu Gothic UI'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+end
